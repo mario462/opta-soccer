@@ -1,5 +1,5 @@
 // -------------------- CONSTANTS --------------------
-const SEASON = "2015";
+const SEASON = "2016";
 const SPORT_ID = "1";
 const SPORT = "football";
 
