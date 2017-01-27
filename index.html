@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>League results</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div>
+	  <div>
+	    <select id="comps" name="comps"></select>
+	  </div>
+	  <div>
+	    <table id="games" name="games">
+	    </table>
+	  </div>
+	  <div id="content"></div>
+	</div>
+	
+	<script src="./jquery-3.1.1.min.js"></script>
+	<script type="text/javascript">
+		var _optaParams = {
+		    custID: '36e6dfe9c21df3bc4b6aa071111d2172',
+		    language: 'en'
+	  	};
+		$(document).ready(function(){
+			$.getScript("jqOpta.js")
+			$.getScript("results.js")
+		});
+	</script>
+</body>
+</html>
