@@ -121,7 +121,7 @@ var ctParams = {
 	competition: "",
   cust_id: "default",
   trans_id: $jqOpta.settings.translation_id || 1,
-  lang_id: $jqOpta.settings.locale.full,
+  lang_id: 'en',
   sport_id: SPORT_ID,
   season: SEASON
 };
